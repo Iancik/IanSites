@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IanSites - Portfolio Modern de Site-uri Web</title>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico?v=2" type="image/x-icon">
+    <link rel="icon" href="favicon.ico?v=2" type="image/x-icon">
+    <link rel="icon" href="favicon.ico?v=2" sizes="32x32">
+    <link rel="icon" href="favicon.ico?v=2" sizes="16x16">
+    <link rel="apple-touch-icon" href="favicon.ico?v=2">
+    <link rel="manifest" href="site.webmanifest">
+    
+    <!-- Fallback favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='15' fill='%236366f1'/><text x='16' y='20' text-anchor='middle' fill='white' font-family='Arial' font-size='14' font-weight='bold'>IS</text></svg>">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header cu navigare -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h1 class="brand-title">
+                    <span class="brand-gradient">Ian</span>Sites
+                </h1>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Acasă</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">Despre</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Secțiunea Hero -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title typing-effect">
+                    <span class="hero-gradient">Site-uri Web</span><br>
+                    <span class="hero-subtitle">Moderne & Profesionale</span>
+                </h1>
+                <p class="hero-description">
+                    Creez experiențe digitale excepționale care transformă vizitatorii în clienți. 
+                    Fiecare site este o operă de artă tehnologică.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">
+                        <span>Vezi Portfolio</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Contactează-mă</span>
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card card-1">
+                    <i class="fas fa-code"></i>
+                    <span>Frontend</span>
+                </div>
+                <div class="floating-card card-2">
+                    <i class="fas fa-server"></i>
+                    <span>Backend</span>
+                </div>
+                <div class="floating-card card-3">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span>Responsive</span>
+                </div>
+                <div class="floating-card card-4">
+                    <i class="fas fa-palette"></i>
+                    <span>Design</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Secțiunea Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Portfolio</h2>
+                <p class="section-subtitle">3 site-uri web moderne, fiecare cu design unic</p>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-aos="fade-up">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                          <img src="img/site1.png" alt="Site-ul #1">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <a href="https://iancik.github.io/ServiceITGlobal/" class="portfolio-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Service IT Global</h3>
+                        <p class="portfolio-description">
+                            Un site web modern cu design responsive și funcționalități avansate.
+                        </p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <img src="img/site2.png" alt="Site-ul #2">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <a href="https://iancik.github.io/GearGarden/home.html" class="portfolio-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">GearGarden</h3>
+                        <p class="portfolio-description">
+                            O platformă interactivă cu animații moderne și experiență utilizator excepțională.
+                        </p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <img src="img/site3.png" alt="Site-ul #3">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <a href="https://iancik.github.io/SushiArria/" class="portfolio-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">SushiArria</h3>
+                        <p class="portfolio-description">
+                            O aplicație web complexă cu performanță optimizată și design inovator.
+                        </p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secțiunea About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Despre IanSites</h2>
+                    <p class="about-description">
+                        Sunt pasionat de crearea de experiențe digitale memorabile. 
+                        Fiecare proiect este o oportunitate de a împinge limitele creativității 
+                        și tehnologiei pentru a livra rezultate excepționale.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3 class="stat-number">10+</h3>
+                            <p class="stat-label">Proiecte Finalizate</p>
+                        </div>
+                        <div class="stat">
+                            <h3 class="stat-number">100%</h3>
+                            <p class="stat-label">Satisfacție Client</p>
+                        </div>
+                        <div class="stat">
+                            <h3 class="stat-number">24/7</h3>
+                            <p class="stat-label">Suport Tehnic</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="skill-circle">
+                        <div class="skill-item">
+                            <i class="fas fa-palette"></i>
+                            <span>Design</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>Dezvoltare</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Responsive</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-rocket"></i>
+                            <span>Optimizare</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secțiunea Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact</h2>
+                <p class="section-subtitle">Să discutăm despre următorul tău proiect</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>ianiovita005@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Telefon</h3>
+                            <p>+373 60 298 920</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Locație</h3>
+                            <p>Chișinău</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Numele tău" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Email-ul tău" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subiect" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Mesajul tău" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <span>Trimite Mesajul</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3 class="footer-title">
+                        <span class="brand-gradient">Ian</span>Sites
+                    </h3>
+                    <p>Creând experiențe digitale excepționale</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/Iancik" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ian-iovi%C8%9Ba-42bb08271/" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.facebook.com/iovita.ian" class="social-link">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 IanSites. Toate drepturile rezervate.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

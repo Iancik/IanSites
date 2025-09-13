@@ -1,0 +1,16 @@
+{
+    "name": "IanSites - Portfolio Modern",
+    "short_name": "IanSites",
+    "description": "Portfolio modern de site-uri web - Ian Ioviță",
+    "icons": [
+        {
+            "src": "favicon.ico",
+            "sizes": "32x32",
+            "type": "image/x-icon"
+        }
+    ],
+    "theme_color": "#6366f1",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "start_url": "/"
+}
